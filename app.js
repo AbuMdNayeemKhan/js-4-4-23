@@ -54,13 +54,66 @@
 
 //===========>CLASS CONSTRUCTUR 
 
-class mobile{
-    constructor(brand, model, price){
-        this.brand = brand;
-        this.model = model;
-        this.price = price;
-    }
-}
-let mobileDetails = new mobile("Nokia", "3.4", "12000");
+// class mobile{
+//     constructor(brand, model, price){
+//         this.brand = brand;
+//         this.model = model;
+//         this.price = price;
+//     }
+// }
+// let mobileDetails = new mobile("Nokia", "3.4", "12000");
 
-console.log(mobileDetails);
+// console.log(mobileDetails);
+
+//==========>CLASS CONSTRUCTUR EXPRESION
+// class person{
+//     constructor(name, age, salary){
+//         this.name = name;
+//         this.age = age;
+//         this.salary = salary;
+//     }
+// }
+
+// let personInfo = new person("Abu MD Nayeem Khan", 24, 5000);
+
+// console.log(personInfo.salary);
+
+//==========>STATIC CLASS
+// class staticClass{
+//     static myFun(){
+//         console.log("Bangladesh.");
+//     }
+// }
+
+// console.log(staticClass.myFun());
+
+//==========>BASIC INHARITANCE
+// class inHari{
+//     assetsDada(){
+//         console.log("It's my dadas proparty.");
+//     }
+//     assetsBaba(){
+//         console.log("It's my babas proparty.");
+//     }
+// }
+
+// class ami extends inHari {
+//     assetsAmi(){
+//         super.assetsBaba();
+//         super.assetsDada();
+//     }
+// }
+
+// let totalAssets = new ami().assetsAmi();
+
+// console.log (totalAssets);
+
+//==========>ARROW FUNCTION
+
+// const showMe = (a, b)=>{
+//     console.log(a + b);
+// }
+
+const showMe = (a, b)=>console.log(a + b);
+
+showMe(2, 2);
